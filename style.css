@@ -1,0 +1,29 @@
+
+body {
+    background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.btn-girar {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: linear-gradient(45deg, #ff6600, #ffcc00);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.7);
+}
+.btn-girar:hover {
+    background: linear-gradient(45deg, #ffcc00, #ff6600);
+}
+#scene-container {
+    width: 100vw;
+    height: 500px;
+}
